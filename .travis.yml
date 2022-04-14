@@ -15,9 +15,10 @@ node_js: stable
 
 # 安装依赖
 install:
-  - npm install -D
+  - yarn install -D
   - cd ./test/smoke/template
-  - npm install -D
+  - yarn install -D
+  - cd ../../../
 
 # 跑一下测试
 scripts:
